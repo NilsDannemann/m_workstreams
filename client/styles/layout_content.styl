@@ -1,0 +1,54 @@
+/*CONTENT*/
+.content
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	
+	height: 100vh;
+	background: white;
+	
+	transition: all 220ms ease-out-cubic;
+	
+	&.content--inactive
+			transform translateX(0px);
+			
+	+below(3)
+		&.content--inactive
+			transform translateX(250px);
+		
+	.content__header,
+	.content__main,
+	.content__footer
+		display: flex;
+		
+	.content__header,
+	.content__footer
+		justify-content: space-between;
+		flex-shrink: 0;
+		height: 55px;
+		line-height: 55px;
+		background: #FFF;
+
+	.content__header
+		border-bottom: border;
+		z-index: 1;
+	
+	.content__main
+		flex: 1;
+		flex-direction: column;
+		justify-content: flex-end;
+		
+		overflow: auto;
+		position: relative;
+		
+		.scroll-container
+			overflow: auto;
+			padding: padding 0 padding 0;
+			
+			&::-webkit-scrollbar
+				width: 0px !important;
+			
+	.content__footer
+		align-items: stretch;
+		border-top: border;
+		

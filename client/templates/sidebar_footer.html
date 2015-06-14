@@ -1,0 +1,13 @@
+<template name="sidebar_footer">
+	
+	<!-- SIDEBAR FOOTER -->
+	{{#if currentUser}}
+		<footer class="sidebar__footer">
+			<form class="add-stream">
+				<input class="add-stream__title" type="text" name="title" placeholder="New Stream...">
+				<input class="add-stream__submit" type="submit" value="Add">
+			</form>
+		</footer>
+	{{/if}}
+
+</template>

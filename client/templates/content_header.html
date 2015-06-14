@@ -1,0 +1,29 @@
+<template name="content_header">
+	
+	<!-- CONTENT HEADER -->
+	<header class="content__header">
+		<div class="controls">
+			<div class="sidebar-toggle">
+				<i class="ion-navicon"></i>
+			</div>
+			{{#if currentUser}}
+				{{#if workstreamSelected}}
+				<label class="stream-toggle">
+					<select>
+						<i class="ion-chevron-down"></i>
+						<option value="Full Stream" selected> Full Stream </option>
+						<option value="Tasks only">Tasks only</option>
+						<option value="Notes only">Notes only</option>
+					</select>
+				</label>
+				{{/if}}
+			{{/if}}
+		</div>
+
+		<div class="login">
+			{{> loginButtons align="right"}}
+			<!-- <i class="ion-chevron-down"></i> -->
+		</div>
+	</header>
+
+</template>

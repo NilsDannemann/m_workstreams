@@ -1,0 +1,199 @@
+.entry
+	display: flex;
+	flex-shrink: 0;
+	padding-right: 20px;
+	overflow: hidden;
+	
+	//Line
+	&:before
+		content: '';
+		width: 2px;
+		background: #ddd;
+		position: relative;
+		left: 27px;
+	
+	.entry__date
+		width: 54px;
+		padding: 10px 0;
+		align-self: center;
+				
+	//NOTES
+	&.entry--note
+	
+		.entry__content
+			flex: 1;
+			display: flex;
+			align-items: center;
+			padding: 15px 55px 15px 15px;
+			color: #555;
+			margin: 3px -70px 3px 0;;
+			border: border;
+		
+		.entry__controls
+			margin-top: 9px;
+			
+	// TASKS
+	&.entry--task
+		cursor: pointer;
+		
+		&:hover 
+			background: #f1f1f1;
+			
+			.entry__date
+				
+				&:before
+					background: #f1f1f1;
+		
+		&.entry--completed
+			color: #ddd;
+			
+			.entry__content
+				
+				span
+					text-decoration: line-through;
+				
+				span.entry__completedate
+					text-decoration: none;
+					font-style: italic;
+					color: #ddd;
+			
+			.entry__date
+				
+				//Checkmark - active
+				&:after
+					transform: scale(1);
+					transition: scale 180ms ease-in-back;
+
+		.entry__date
+
+			//Checkmark - inactive
+			&:after
+				display: block;
+				content: '\f122';
+				font-family: 'ionicons';
+				color: #8CC739;
+				font-size: 17px;
+				text-align: center;
+				width: 16px;
+				height: 16px;
+				margin-top: -16px;
+				position: relative;
+				left: 21px;
+				top: -4px;
+				
+				transform: scale(0);
+				transition: scale 165ms ease-out-back;
+			
+			//Circle
+			&:before
+				content: '';
+				display: block;
+				width: 16px;
+				height: 16px;
+				background: #fff;
+				border: 2px solid #ddd;
+				border-radius: 100px;
+				position: relative;
+				left: 18px;
+
+		.entry__content
+			flex: 1;
+			padding: 10px 0;
+			margin: 0;
+
+		
+	//CONTROLS
+	&:hover
+		
+		.entry__controls	
+			opacity: 1;
+			transform: translateX(0px);
+
+	.entry__controls
+		display: flex;
+		align-items: top;
+		justify-content: center;
+		
+		opacity: 0;
+		transform: translateX(5px);
+		transition: all 200ms ease-in-cubic;
+		
+		width: 35px;
+		height: 35px;
+		cursor: pointer;
+		color: #aaa;
+		line-height: 38px;
+		text-align: center;	
+		
+		//CONTROLS - PRIORITY
+		&.entry__controls--priority
+			font-size: 20px;
+
+			&:hover
+				color: green;
+		
+		//CONTROLS - REMOVE
+		&.entry__controls--remove
+			font-size: 10px;
+
+			&:hover
+				color: red;	
+
+// PRIORITIES
+.priority
+	width: 65px;
+	text-align center;
+	color: #fff;
+	font-size: 12px;
+	display: inline-block;
+	margin: -5px -65px -5px 5px;
+	
+	&:before
+		content: '';
+		width: 65px;
+		height: 22px;
+		display: inline-block;
+		padding: 4px 10px;
+		margin-bottom: -7px;
+		position: relative;
+		top: -1px;
+		border-radius: 50px;
+		
+		opacity: 0;
+		transform: translateX(-20px);
+		transition-property: opacity, transform;
+		transition-duration: 220ms;
+		transition: all 220ms;
+	
+	&.priority--low:before,
+	&.priority--medium:before,
+	&.priority--high:before
+		opacity: 1;
+		transform: translateX(0px);
+		transition-property: opacity, transform;
+		transition-duration: 220ms;
+		
+	&.priority--low:before
+		content: 'low';
+		display: inline-block;
+		background: blue;
+		
+	&.priority--medium:before
+		content: 'medium';
+		display: inline-block;
+		background: orange;
+		
+	&.priority--high:before
+		content: 'high';
+		display: inline-block;
+		background: red;
+		
+.entry--completed
+	
+	.priority
+		
+		&:before
+			background: #ddd;
+			opacity: 0;
+			transform: translateX(-20px);
+		

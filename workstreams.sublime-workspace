@@ -1,0 +1,946 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"shit",
+				"shift"
+			],
+			[
+				"strem",
+				"streamToggleSession"
+			],
+			[
+				"stre",
+				"streamToggleSession"
+			],
+			[
+				"layout",
+				"layout_home	(layout_home.html)"
+			],
+			[
+				"preventD",
+				"preventDefault"
+			],
+			[
+				"hov",
+				"hoveredEntryPriority"
+			],
+			[
+				"low",
+				"priority--low"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"entry",
+				"entry--task"
+			],
+			[
+				"cont",
+				"content_main"
+			],
+			[
+				"workstrem",
+				"workstreams"
+			],
+			[
+				"strea",
+				"stream-toggle"
+			],
+			[
+				"str",
+				"streamToggleSession"
+			],
+			[
+				"toLoca",
+				"toLocaleTimeString (fn) [E]"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"pr",
+				"priority--high"
+			],
+			[
+				"pro",
+				"priority--low"
+			],
+			[
+				"ease",
+				"ease-in-cubic"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"tra",
+				"translateX"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"new",
+				"newPriority"
+			],
+			[
+				"cu",
+				"currentPriority"
+			],
+			[
+				"entry__",
+				"entry__controls"
+			],
+			[
+				"po",
+				"pointer-events"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"Templ",
+				"Template"
+			],
+			[
+				"Templa",
+				"Template   (fn)  [E]"
+			],
+			[
+				"sidebar",
+				"sidebar_content"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"Ge",
+				"Georgia"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"marg",
+				"margin15"
+			],
+			[
+				"small",
+				"small"
+			],
+			[
+				"margin1",
+				"margin15"
+			],
+			[
+				"margn",
+				"margin0"
+			],
+			[
+				"mari",
+				"margin15"
+			],
+			[
+				"one",
+				"one_third"
+			],
+			[
+				"two",
+				"two_third"
+			],
+			[
+				"margin",
+				"margin0"
+			],
+			[
+				"mar",
+				"margin0"
+			],
+			[
+				"marin2",
+				"margin25"
+			],
+			[
+				"clea",
+				"clearfix"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "workstreams.styl",
+			"settings":
+			{
+				"buffer_size": 889,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/styles/layout_base.styl",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "workstreams.js",
+			"settings":
+			{
+				"buffer_size": 11399,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 500.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packre",
+				"Package Control: Remove Package"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"packarem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packrem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"syncss",
+				"Set Syntax: CSS"
+			],
+			[
+				"synscs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"packint",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"formhtml",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"formatht",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"formath",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"task",
+				"Tasks: New"
+			],
+			[
+				"pakre",
+				"Package Control: Remove Channel"
+			],
+			[
+				"stat",
+				"Tasks: Copy Statistics"
+			],
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"bem",
+				"Set Syntax: BEMHTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS3"
+			]
+		],
+		"width": 581.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams"
+	],
+	"file_history":
+	[
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/templates/layout_home.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/styles/layout_home.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/styles/accounts.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/templates/layout_app.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/routes.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/workstreams.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/templates/content_footer.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/server/lib/server.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/styles/content_main.styl",
+		"/C/Users/Nils Dannemann/Desktop/kq_countdown.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/templates/content_main.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/.deploy/mup.json",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/.deploy/settings.json",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/styles/layout_content.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/styles/layout_base.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/templates/content_header.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/styles/sidebar_main.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/accounts.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_notes/main.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/styles/content_header.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/workstreams.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/lib/collections.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/lib/collections.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/server/lib",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/server/server.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/styles/animations.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/templates/sidebar_main.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/styles/layout_sidebar.styl",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/client.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/workstreams.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/templates/sidebar_footer.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/m_workstreams/client/templates/sidebar_header.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_App_Goals/KiwiQuest_App_Goals.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_App_Goals/KiwiQuest_App_Goals.css",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_App_Goals/KiwiQuest_App_Goals.html",
+		"/C/Users/Nils Dannemann/Desktop/styles_kiwiquest_min.css",
+		"/C/Users/Nils Dannemann/Desktop/Sites/meteorapp1/meteorapp1.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/template-angebot-overview.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/_inc/css/responsive.css",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/template-angebot.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/_inc/css/default.css",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/STProjectMaker/Sample-Templates/New Project [Mixture]/assets/scss/base/_main.scss",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/STProjectMaker/Sample-Templates/New Project [Mixture]/assets/scripts/main.js",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/STProjectMaker/Sample-Templates/New Project [Mixture]/assets/scss/base/_navigation.scss",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/STProjectMaker/Sample-Templates/New Project [Mixture]/assets/scss/_settings.scss",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/STProjectMaker/Sample-Templates/New Project [Mixture]/project.todo",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/template-download.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/functions.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/KiwiQuest_Todo.todo",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/template-feedback.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/single.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/blog.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/template-contact.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/w3-total-cache/extensions/FeedBurner.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/feed.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/w3-total-cache/languages/faq-enterprise-en_US.xml",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/wysija-newsletters/helpers/form_engine.php",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/languages/admin-network-de_DE.mo",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/archive.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/frontpage1.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/feed-rdf.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/header.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-admin/edit.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-admin/export.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/easy-digital-downloads/includes/admin/reporting/class-export-payments.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/attach_to_post/templates/no_display_type_selected.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/_inc/global.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-admin/network/site-info.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/sftp-config.json",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/template-shop.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/theme-compat/header.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/wysija-newsletters/helpers/dividers.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/_inc/images/icon-nav-mobile-heart.png",
+		"/C/Users/NILSDA~1/AppData/Local/Temp/Rar$DR08.928/advanced-custom-fields-pro/readme.txt",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/js/heartbeat.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/easy-digital-downloads/includes/class-edd-html-elements.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/http.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/groups/groups-loop.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/googlea9a843da2d85cab8.html",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/js/organictabs.jquery.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/themes/WildCommunity/js/select-styling.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-admin/css/about-rtl.css",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-activate.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-blog-header.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/buddypress/bp-loader.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/bb-config.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-admin/network/site-new.php",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/PlainTasks/messages/Tutorial.todo",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/KiwiQuest_Todo",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/functions.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/contact-form-7-to-database-extension/phpunit/UnCurlyQuoteTest.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/js/tinymce/utils/form_utils.js",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-admin/freedoms.php",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/buddypress/bp-forums/bbpress/bb-templates/kakumei/register-success.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/easy-digital-downloads/includes/admin/settings/register-settings.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/contact-form-7/modules/response.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/SimplePie/Restriction.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/wysija-newsletters/helpers/render_engine.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/readme.html",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/User/Base File.sublime-settings",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/User/CSS.sublime-settings",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/User/CSS Format.sublime-settings",
+		"/C/Users/Nils Dannemann/Dropbox/SUBLIME TEXT3/Data/Packages/CSS Format/CSS Format.sublime-settings",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/default-constants.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/default-filters.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-content/plugins/contact-form-7-to-database-extension/phpunit/DereferenceShortcodeVars_ExportTest.php",
+		"/C/Users/Nils Dannemann/Desktop/Sites/KiwiQuest_WP_V2/wp-includes/date.php",
+		"/C/Users/Gothmog/Desktop/Sites/TierparkHTML/css/style.css",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Gothmog/Desktop/Sites/TierparkHTML/index.html",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/CSS Format/CSS Format.sublime-settings",
+		"/C/Users/Gothmog/Desktop/test.css",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/User/CSS.sublime-settings",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Installed Packages/Color Highlighter.sublime-package",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/Color Highlighter/Default.sublime-keymap",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/PlainTasks/tasks-white.hidden-tmTheme",
+		"/C/Users/Gothmog/Desktop/test.html",
+		"/C/Users/Gothmog/Dropbox/SUBLIME TEXT3/Data/Packages/User/SublimeLinter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 47.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"session",
+			"task",
+			"alt + ",
+			"alt +",
+			"alt",
+			"Notes only",
+			"Full Stream",
+			"Tasks",
+			",",
+			"  ",
+			"				preventDefault();",
+			"+ shift",
+			"+ alt ",
+			"				$(document).focus();",
+			"window",
+			"shift + ",
+			"--medium",
+			"this.",
+			"var ",
+			"&&",
+			"Properties",
+			"{\n",
+			"hoveredEntry",
+			"low",
+			"newPriority",
+			"null",
+			"--",
+			"mail",
+			"scr",
+			"scroll-container",
+			"chat-list",
+			"  ",
+			"-1}",
+			"1200ms",
+			"200ms",
+			"m-toggle",
+			"le(0",
+			"-25p",
+			": '",
+			"div",
+			".pri",
+			"&",
+			"span",
+			"con",
+			"block",
+			"high",
+			"medium",
+			"low",
+			"if",
+			"var",
+			"\";",
+			"var cu",
+			"currentPriority",
+			"Priority",
+			"priority",
+			"Priority",
+			"currentPriority",
+			"10%",
+			"10",
+			"ddd",
+			"#bbb",
+			"--remove",
+			"remove",
+			"fast",
+			"Left",
+			"fast",
+			"slow",
+			"    ",
+			"fast",
+			"Left",
+			"  ",
+			" myNode",
+			"    ",
+			"  ",
+			"    ",
+			"user",
+			"  ",
+			"resol",
+			"resolution",
+			"$foo = new foo();",
+			"\"",
+			"]*/\n",
+			"basic",
+			"*/\n",
+			"false",
+			"OPTIONS",
+			";\n",
+			"Options",
+			"darken",
+			"%",
+			"vw",
+			"canvas",
+			"\"",
+			"navigation_overlay",
+			"navigation_icon",
+			"navigation__overlay",
+			"navigation__icon",
+			"<div class=\"price\">",
+			"5px",
+			"[price]",
+			"price]",
+			"[price]",
+			"<h3>",
+			" class=\"shortcode_button\" ",
+			"panel_price",
+			"123",
+			"li",
+			"#navigation>",
+			"#navigation>ul>li",
+			"imgframe",
+			"image",
+			"#navigation ul li ul li.parent",
+			"out",
+			"outro",
+			"fix ",
+			"img ",
+			"fix ",
+			"Fix",
+			"fix",
+			"Fix",
+			"fix",
+			"Fix",
+			"ol>li",
+			"#content ol>li",
+			"image",
+			"main_content",
+			"note",
+			"small"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "workstreams.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								444,
+								403
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/styles/layout_base.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "workstreams.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10182,
+								10186
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6015.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 135.0
+	},
+	"pinned_build_system": "",
+	"project": "workstreams.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lay",
+				"client\\styles\\layout_base.styl"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"css",
+				"KiwiQuest_App_Goals.css"
+			],
+			[
+				"templa",
+				"wp-content\\themes\\WildCommunity\\template-angebot-overview.php"
+			],
+			[
+				"resp",
+				"wp-content\\themes\\WildCommunity\\_inc\\css\\responsive.css"
+			],
+			[
+				"defau",
+				"wp-content\\themes\\WildCommunity\\_inc\\css\\default.css"
+			],
+			[
+				"main",
+				"assets\\scss\\base\\_main.scss"
+			],
+			[
+				"sett",
+				"assets\\scss\\_settings.scss"
+			],
+			[
+				"todo",
+				"project.todo"
+			],
+			[
+				"nav",
+				"assets\\scss\\base\\_navigation.scss"
+			],
+			[
+				"angeb",
+				"wp-content\\themes\\WildCommunity\\template-angebot-overview.php"
+			],
+			[
+				"blog",
+				"wp-content\\themes\\WildCommunity\\blog.php"
+			],
+			[
+				"templ",
+				"wp-content\\themes\\WildCommunity\\template-contact.php"
+			],
+			[
+				"single",
+				"wp-content\\themes\\WildCommunity\\single.php"
+			],
+			[
+				"feedb",
+				"wp-content\\themes\\WildCommunity\\template-feedback.php"
+			],
+			[
+				"ange",
+				"wp-content\\themes\\WildCommunity\\template-angebot.php"
+			],
+			[
+				"front",
+				"wp-content\\themes\\WildCommunity\\frontpage1.php"
+			],
+			[
+				"heade",
+				"wp-content\\themes\\WildCommunity\\header.php"
+			],
+			[
+				"global",
+				"wp-content\\themes\\WildCommunity\\_inc\\global.js"
+			],
+			[
+				"sing",
+				"wp-content\\themes\\WildCommunity\\single.php"
+			],
+			[
+				"header",
+				"wp-content\\themes\\WildCommunity\\header.php"
+			],
+			[
+				"headr",
+				"wp-includes\\theme-compat\\header.php"
+			],
+			[
+				"head",
+				"wp-content\\themes\\WildCommunity\\header.php"
+			],
+			[
+				"globa",
+				"wp-content\\themes\\WildCommunity\\_inc\\global.js"
+			],
+			[
+				"archi",
+				"wp-content\\themes\\WildCommunity\\archive.php"
+			],
+			[
+				"fun",
+				"wp-content\\themes\\WildCommunity\\functions.php"
+			],
+			[
+				"funct",
+				"wp-includes\\functions.php"
+			],
+			[
+				"res",
+				"wp-content\\themes\\WildCommunity\\_inc\\css\\responsive.css"
+			],
+			[
+				"defacss",
+				"wp-content\\themes\\WildCommunity\\_inc\\css\\default.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Nils Dannemann\\Desktop\\Sites\\m_myhfc5\\m_myhfc5.sublime-project"
+			],
+			[
+				"kiw",
+				"C:\\Users\\Nils Dannemann\\Desktop\\Sites\\KiwiQuest_WP_V2\\KiwiQuest_WP_V2.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

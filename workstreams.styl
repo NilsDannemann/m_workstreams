@@ -1,0 +1,45 @@
+/* SETUP */
+@import 'nib';
+@import 'axis';
+@import 'jeet';
+@import 'rupture';
+
+normalize-css();
+
+/*VARIABLES*/
+black 	= #232732;
+green 	= #8CC739;
+blue 	= #49A2D0;
+red  	= #EC471C;
+
+shadow 	= 0px 2px 5px rgba(0, 0, 0, 0.25);
+border 	= 1px solid #ddd;
+padding = 20px;
+
+/*BREAKPOINTS*/
+xlarge  = 1100px;
+large 	= 800px;
+medium 	= 600px;
+small 	= 400px;
+
+scale = 0 small medium large xlarge;
+
+/*PARTIALS*/
+@import 'client/styles/layout_base.styl';
+@import 'client/styles/layout_home.styl';
+@import 'client/styles/layout_sidebar.styl';
+@import 'client/styles/layout_content.styl';
+
+@import 'client/styles/content_header.styl';
+@import 'client/styles/content_main.styl';
+@import 'client/styles/content_footer.styl';
+
+@import 'client/styles/sidebar_header.styl';
+@import 'client/styles/sidebar_main.styl';
+@import 'client/styles/sidebar_footer.styl';
+
+@import 'client/styles/accounts.styl';
+
+
+
+

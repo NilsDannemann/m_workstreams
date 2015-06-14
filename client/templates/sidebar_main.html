@@ -1,0 +1,18 @@
+<template name="sidebar_main">
+	<!-- SIDEBAR MAIN -->
+	<ul class="sidebar__main">
+		{{#if currentUser}}
+			{{#each workstreams}}
+				{{> workstream}}
+			{{/each}}
+		{{/if}}
+	</ul>
+</template>
+
+<template name="workstream">
+	<!-- WORKSTREAM -->
+	<li class="workstream workstream--animated {{selectedWorkstreamClass}}">
+		<div class="workstream__title">{{title}}</div>
+		<div class="workstream__remove"><i class="ion-close"></i></div>
+	</li>
+</template>

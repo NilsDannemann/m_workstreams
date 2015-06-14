@@ -1,0 +1,60 @@
+// WORKSTREAMS
+.workstream
+	display: flex;
+	align-items: stretch;
+	
+	height: 55px;
+	cursor: pointer;
+	border-bottom: 1px solid darken(black, 10%);
+	color: rgba(255, 255, 255, 0.45);
+	padding: 0 0 0 padding;
+	
+	&:hover
+		color: #fff;
+
+		.workstream__remove
+			opacity: 0.45;
+			transform: translateX(0);
+			
+			&:hover
+				color: red;
+				opacity: 1;
+
+	&:before
+		align-self: center;
+		content: '';
+		height: 8px;
+		width: 8px;
+		display: block;
+		background: lighten(black, 10%);
+		border-radius: 10px;
+			
+	&.workstream--selected
+		color: #fff;
+		background: darken(black, 10%);
+		
+		&:before
+			background: green;
+			
+	.workstream__title
+		flex: 1;
+		display: flex;
+		align-items: center;
+		padding-left: 10px;
+		
+	.workstream__remove
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		opacity: 0;
+		transform: translateX(5px);
+		transition: all 150ms ease-in-cubic;
+			
+		width: 50px;
+		text-align: center;
+		font-size: 10px;
+
+
+		
+		

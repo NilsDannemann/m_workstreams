@@ -1,0 +1,42 @@
+// ADDENTRY
+.add-entry
+	display: flex;
+	width: 100%;
+	
+	.add-entry__warning
+		padding-left: padding;
+		color: #aaa;
+		
+	.add-entry__text
+		flex: 1;
+		
+		padding-left: padding;
+		border: none;
+		outline: none;
+		
+	.add-entry__type
+		display: flex;
+		
+		select
+			border: none;
+			background: #FFF;
+			border-left: 1px solid #DDD;
+			padding-left: 20px;
+			padding-right: 20px;
+			text-align: left;
+			outline: none;
+			cursor: pointer;
+				
+		&:after 
+			content: '\f126';
+			font-family: 'ionicons';
+			width: 35px;
+			text-align: center;
+			margin-left: -35px;
+			font-size: 12px;
+			color: #BBB;
+			background: #FFF;
+			pointer-events: none;
+		
+	.add-entry__submit
+		display: none;

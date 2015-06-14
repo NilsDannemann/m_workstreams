@@ -1,0 +1,46 @@
+/*SIDEBAR*/
+.sidebar
+	display: flex;
+	flex-direction: column;
+
+	width: 250px;
+	height: 100vh;
+	color: white;
+	background: black;
+	
+	transition: all 220ms ease-out-cubic;
+	
+	&.sidebar--active
+		transform translateX(0px);
+
+	+below(3)
+		margin-left: -250px;
+		
+		&.sidebar--active
+			transform translateX(250px);
+
+	.sidebar__header,
+	.sidebar__main,
+	.sidebar__footer
+		display: flex;
+		padding: 0;
+		margin: 0;
+		box-shadow: -15px 0px 10px -15px rgba(0, 0, 0, 0.65) inset;
+		
+	.sidebar__header,
+	.sidebar__footer
+		height: 55px;
+		flex-shrink: 0;
+		background: darken(black, 10%);
+	
+	.sidebar__header
+		line-height: 55px;
+		padding: 0 0 0 padding;
+		
+	.sidebar__main
+		flex-direction: column;
+		flex: 1;
+		overflow: hidden;
+		
+	.sidebar__footer
+		display: flex;

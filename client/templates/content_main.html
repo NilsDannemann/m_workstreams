@@ -1,0 +1,25 @@
+<template name="content_main">
+	<!-- CONTENT MAIN -->
+	<section class="content__main">
+		<div class="scroll-container">
+			{{#if currentUser}}
+				{{#each entries}}
+					{{> entry}}
+				{{/each}}
+			{{/if}}
+		</div>
+	</section>
+</template>
+
+<template name="entry">
+	<div class="entry entry--animated {{type}} {{#if completed}}entry--completed{{/if}}">
+		<div class="entry__date"></div>
+		<p class="entry__content">
+			<span>{{text}}</span>
+			<span class="priority {{priority}}"></span>
+			{{#if completedAt}}<span class="entry__completedate"> - {{completedAt}}</span>{{/if}}
+		</p>
+		<div class="entry__controls entry__controls--priority"><i class="ion-ios-more"></i></div>
+		<div class="entry__controls entry__controls--remove"><i class="ion-close"></i></div>
+	</div>
+</template>

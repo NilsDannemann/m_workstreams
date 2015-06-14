@@ -1,0 +1,24 @@
+<template name="content_footer">
+	<!-- CONTENT FOOTER -->
+	{{#if currentUser}}
+		<footer class="content__footer">
+				{{#if selectedWorkstreamSession}}
+					<form class="add-entry">
+						<input class="add-entry__text" type="text" name="text" placeholder="Type to add a Note/Task...">
+						<label class="add-entry__type">
+							<select name="type">
+								<i class="ion-chevron-down"></i>
+								<option value="Create Task" selected>Create Task</option>
+								<option value="Create Note"> Create Note</option>
+							</select>
+						</label>
+						<input class="add-entry__submit" type="submit" value="Add">
+					</form>
+				{{else}}
+					<form class="add-entry">
+						<span class="add-entry__warning">Select or create a Stream to add Notes/Tasks</span>
+					</form>
+				{{/if}}
+		</footer>
+	{{/if}}
+</template>
